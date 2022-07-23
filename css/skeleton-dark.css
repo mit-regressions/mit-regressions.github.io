@@ -220,6 +220,10 @@ a super wide horizontal logo centered in the screen with minimal padding
   box-sizing: border-box;
 }
 
+.created-by-line {
+  letter-spacing: -0.5px;
+}
+
 /*
  special hyperlink style for creators' names
 */
