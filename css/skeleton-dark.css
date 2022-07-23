@@ -219,3 +219,30 @@ a super wide horizontal logo centered in the screen with minimal padding
   padding: 0 20px;
   box-sizing: border-box;
 }
+
+/*
+ special hyperlink style for creators' names
+*/
+.creator-name {
+  font-weight: bold;
+  text-decoration: none;
+  color:aqua;
+  filter: grayscale(0.5);
+}
+
+.creator-name:hover {
+  font-weight: bold;
+  text-decoration: none;
+  filter: grayscale(0);
+}
+
+
+/*
+ small text for copyright notice
+*/
+.copyright {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 1rem;
+}
