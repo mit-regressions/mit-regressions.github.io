@@ -226,7 +226,7 @@ a super wide horizontal logo centered in the screen with minimal padding
 .creator-name {
   font-weight: bold;
   text-decoration: none;
-  color:aqua;
+  color:rgb(250, 211, 211);
   filter: grayscale(0.5);
 }
 

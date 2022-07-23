@@ -1,5 +1,7 @@
 # MIT: REGRESSIONS (2022)
 
-A documentary on the history of MIT.
+A feature-length documentary on the history of MIT, spanning from World War 2 to COVID-19.
 
-### Made with ![LittleLink](https://cdn.cottle.cloud/littlelink/social-circle.png)
+Created by Wes and Luke.
+
+### Website forked from [LittleLink](https://littlelink.io)

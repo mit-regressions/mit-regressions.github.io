@@ -29,17 +29,18 @@
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+
 .button,
 button {
   display: inline-block;
   text-decoration: none;
-  height: 48px;
+  height: 40px;
   text-align: center;
   vertical-align: middle;
-  font-size: 18px;
-  width: 300px;
+  font-size: 14px;
+  width: 200px;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 40px;
   letter-spacing: 0.1px;
   white-space: wrap;
   border-radius: 0px;
