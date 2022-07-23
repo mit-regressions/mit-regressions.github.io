@@ -4,4 +4,4 @@ A feature-length documentary on the history of MIT, spanning from World War 2 to
 
 Created by Wes and Luke.
 
-### Website forked from [LittleLink](https://littlelink.io)
+#### Website originally forked from [LittleLink](https://littlelink.io)
