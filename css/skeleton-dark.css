@@ -230,8 +230,8 @@ a super wide horizontal logo centered in the screen with minimal padding
 .creator-name {
   font-weight: bold;
   text-decoration: none;
-  color:rgb(250, 211, 211);
-  filter: grayscale(0.5);
+  color: rgba(149,164,159,255);
+  filter: grayscale(0.3);
 }
 
 .creator-name:hover {
