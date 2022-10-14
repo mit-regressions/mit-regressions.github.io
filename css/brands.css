@@ -38,7 +38,7 @@ button {
   text-align: center;
   vertical-align: middle;
   font-size: 14px;
-  width: 200px;
+  width: 49%;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: 0.1px;
@@ -46,6 +46,7 @@ button {
   border-radius: 0px;
   cursor: pointer;
   filter: opacity(0.7);
+  margin-bottom: 5px;
 }
 
 button:hover,
@@ -63,6 +64,49 @@ button:hover,
   color: #fff;
   filter: brightness(90%);
 }
+
+/* Header-Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header-button,
+header-button {
+  display: inline-block;
+  text-decoration: none;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  /* font size that scales with screen */
+  font-size: 1.275rem;
+  /* font-size: 24px; */
+  width: 24%;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  border-radius: 0px;
+  cursor: pointer;
+  filter: opacity(1);
+  margin-top: 7.5px;
+  margin-bottom: 5px;
+  /* non-bold */
+  font-weight: 400;
+}
+
+header-button:hover,
+.header-button:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+/* a header bar with reduced padding and margins */
+.hr-regressions {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -452,6 +496,46 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* REGRESSIONS BRAND */
+.button.button-regressions {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  /* a wireframe-style button with a white outline and white text with black background */
+  color: #ffffff;
+  background-color: #000000;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  /* a button that auto-resizes if on mobile*/
+  display: block;
+  
+}
+.button.button-regressions:hover,
+.button.button-regressions:focus {
+  filter: brightness(90%);
+}
+
+/* REGRESSIONS BRAND - TRAILER */
+.button.button-regressions-trailer {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  /* a wireframe-style button with a white outline and white text with black background */
+  color: rgba(149,164,159,255);
+  background-color: #000000;
+  border-style: solid;
+  border-color: rgba(149,164,159,255);
+  border-width: 2px;
+  /* a button that auto-resizes if on mobile*/
+  display: block;
+  
+}
+.button.button-regressions:hover,
+.button.button-regressions:focus {
+  filter: brightness(90%);
+}
+
 /* Steam */
 .button.button-steam {
   color: #ffffff;
@@ -612,6 +696,33 @@ button:hover,
 .button.button-yt:focus {
   filter: brightness(90%);
 }
+
+.button.button-regressions-screening {
+  margin: 0 auto;
+  padding: 0 0px;
+  padding-top: 10px;
+  /* monospace style */
+  font-family: monospace;
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: -10px;
+  font-size: 12px;
+  line-height: 1.5;
+  height: 70px;
+  color: #ffffffbf;
+  background-color: #000000;
+  border-style: solid;
+  border-color: #ffffff65;
+  border-width: 2px;
+  filter: opacity(1);
+  /* /* a button that auto-res */
+}
+.button.button-regressions-screening:hover,
+.button.button-regressions-screening:focus {
+  filter: brightness(90%);
+}
+
 
 /* Letterboxd */
 .button.button-letterboxd {
