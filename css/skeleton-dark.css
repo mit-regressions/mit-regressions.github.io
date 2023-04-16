@@ -262,7 +262,11 @@ a super wide horizontal logo centered in the screen with minimal padding
   text-decoration: none;
 
   /* color: rgba(149,164,159,255); */
-  color: white;
+  color: rgba(255, 255, 255, 0.812);
+  /* font size small */
+  font-size: 16px;
+  /* make it so that a line break is not possible */
+  white-space: nowrap;
   filter: grayscale(1);
 }
 
