@@ -96,16 +96,6 @@
 
         -->
 
-
-        <a class="button button-regressions-screening" href="https://fb.me/e/c3iS2YRUA" target="_blank" rel="noopener">
-          <div>
-            <br>
-            RSVP TO THE 10.08.23 SCREENING @ MIT
-            <!-- <br> -->
-            <!-- <i>(a portal for all sources and footage)</i> -->
-          </div>
-        </a>
-        
         <!-- Your Image Here -->
         <img src="images/regressions-title-subtitle.svg" class="regressions-logo" srcset="images/regressions-title-subtitle.svg 2x" alt="MIT:REGRESSIONS. A HISTORY OF THE INSTITUTE.">
                 
@@ -175,7 +165,11 @@
 
         <p class="created-by-line"><b>Created by <a class="creator-name" href="https://www.linkedin.com/in/wesleyblock/">Wes</a> and <a class="creator-name" href="https://twitter.com/lukeigel/">Luke</a>.</b>
         <p class="email-line"><a class="creator-name" href="mailto:regressions@mit.edu">regressions@mit.edu</a>
-        <p class="copyright">Copyright © 2023 REGRESSIONS, a registered 501(c)(3)</p>
+        <p class="copyright">Copyright © <span id="current-year"></span> REGRESSIONS, a registered 501(c)(3)</p>
+
+        <script>
+          document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
       </div>
     </div>
   </div>
